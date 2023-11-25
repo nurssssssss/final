@@ -1,0 +1,235 @@
+.navbar {
+    background-color: #87b9ec; /* Pink background color */
+    justify-content: flex-end; /* Move the navbar to the right side */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #b73030; /* White color for the toggler icon */
+}
+
+.navbar-brand img {
+    max-height: 100px; /* Adjusted height for the logo */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* White text color for the links */
+}
+/* Main Content Styles */
+body.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://sportishka.com/uploads/posts/2023-06/1687238406_sportishka-com-p-tovari-dlya-zdorovogo-obraza-zhizni-pinter-2.jpg') center/cover no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrapper {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3); /* Transparent black background */
+    border-radius: 10px; /* Add border radius for a rounded look */
+}
+
+.content-wrapper h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.content-wrapper p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Buttons Styles */
+.btn-primary {
+    background-color: #fff;
+    color: #ff66b2;
+    border: 1px solid #fff;
+}
+
+.btn-secondary {
+    background-color: #ff66b2;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #e60073;
+    border: 1px solid #e60073;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #87b9ec; /* Adjust the background color as needed */
+    padding: 10px;
+}
+.content-wrapper {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3); /* Transparent black background */
+    border-radius: 10px; /* Add border radius for a rounded look */
+}
+
+body.tips {
+    background-color: #87b9ec; /* Light blue background color for tips page */
+}
+
+.tips-content-wrapper {
+    text-align: center;
+    color: #000000;
+    padding: 50px;
+    border-radius: 10px; /* Add border radius for a rounded look */
+}
+.carousel-caption {
+    text-align: center;
+    font-size: 1.5em; /* Adjust the font size as needed */
+    color: #ffffff; /* Set the text color */
+}
+
+.tips-content-wrapper h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.tips-content-wrapper h5 {
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.tips-content-wrapper p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Contact Form and Information Section Styles */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px; /* Adjust padding as needed */
+}
+
+.contact-info,
+.contact-form-wrapper {
+    text-align: center;
+    border-radius: 10px; /* Add border radius for a rounded look */
+    margin-top: 20px; /* Adjust the top margin as needed */
+    flex: 1; /* Take up available space */
+    background-color: rgba(0, 0, 0, 0.3); /* 30% transparent black background */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.contact-info h2,
+.contact-info p,
+.contact-form-wrapper h1,
+.contact-form label,
+.contact-form textarea,
+.contact-form input {
+    color: #fff; /* Set the text color to white */
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px; /* Add margin to separate paragraphs */
+}
+
+.contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 20px; /* Add margin to separate heading and paragraphs */
+}
+
+.contact-form-wrapper h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px; /* Set the maximum width for the form */
+    margin: 0 auto;
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input {
+    color: #fff; /* Set the text color to white */
+    font-size: 1em; /* Set the font size for input labels and fields */
+}
+
+.contact-form textarea,
+.contact-form input {
+    background-color: transparent; /* Set input and textarea background to transparent */
+    border: 1px solid #fff; /* Add a white border */
+}
+
+.contact-form button {
+    background-color: #fff; /* White button background */
+    color: #87b9ec; /* Set the text color to match the navbar background */
+    border: 1px solid #fff; /* Add a white border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.contact-form button:hover {
+    background-color: #87b9ec; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+}
+
+/* Add this to your existing CSS file or create a new one */
+
+body.quiz {
+    background-color: #87b9ec;
+}
+
+.quiz-container {
+    margin-top: 50px;
+}
+
+.quiz-question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#submitQuiz {
+    margin-top: 20px;
+}
+
+/* Optional: Add styling for correct and incorrect answers */
+.correct-answer {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect-answer {
+    color: red;
+    font-weight: bold;
+}
+/* Add these styles for correct and incorrect answers */
+.correct-answer {
+    background-color: #4caf50; /* Green background for correct answer */
+    color: #fff; /* White text color */
+}
+
+.incorrect-answer {
+    background-color: #f44336; /* Red background for incorrect answer */
+    color: #fff; /* White text color */
+}
+
